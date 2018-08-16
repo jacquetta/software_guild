@@ -1,17 +1,20 @@
   /*
 Creator: Jacquetta Bommuluri
 Date created: August 15, 2018
-Date last modified:
+Date last modified: August 16, 2018
 */
 
 body{
    background-color: #F4F2F3; /* color Anti-Flash White */
    font-family: arial, helvetica, sans-serif;
-   color: #454851; /* color Outer Space*/
+   color: #293241; /* GunMetal*/
+   max-width: 900px;
+   margin: 0 auto;
+   /* border: 3px solid #A2DDD7; */
 }
 
 header, footer {
-  background-color: #FF007F; /* color Rose or 81D2C7 Pearl Aqua */
+  background-color: #A2DDD7; /* or 81D2C7 Pearl Aqua */
   color: #293241; /* color GunMetal */
   height: 100px;
   text-align: center;
@@ -23,7 +26,50 @@ h1{
 }
 
 nav{
-  border-top: 3px dashed #FF007F;
-  border-bottom: 3px dashed #FF007F;
+  border-top: 3px dashed #A2DDD7;
+  border-bottom: 3px dashed #A2DDD7;
   margin-top: 4px;
+}
+
+article img{
+  float: left;
+  margin-right: 5px;
+}
+
+.clear-float{
+  clear:both;
+}
+
+.right-content{
+  float: left;
+}
+
+article {
+  margin-bottom: 16px;
+}
+
+nav a{
+  background-color:#a2ddd7;
+  color: #293241;
+  padding: 8px;
+  border: thin solid #A1A4B6;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px 20px;
+  width: 100px;
+  float: left;
+}
+
+nav a:visited{
+  color: #3c56a4;
+}
+
+nav a:hover {
+  background-color: #daf1ef;
+  color: #293241;
+}
+
+nav a:active{
+  font-weight: bold;
 }
