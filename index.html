@@ -8,6 +8,39 @@
   <head>
     <meta charset="utf-8">
     <title>Jacquetta Bommuluri's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+      caption{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 8px;
+      }
+
+      table, th, td {
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+
+      table{
+        width: 90%;
+        margin: auto;
+      }
+
+      tr{
+        height: 30px;
+      }
+
+      th{
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -15,17 +48,15 @@
       <h1>Portfolio for Jacquetta Bommuluri</h1>
     </header>
 
-    <nav>
-      <hr>
+    <nav class="border">
       <p><a href="projects.html" target="_blank">Projects</a></p>
       <p><a href="contact.html" target="_blank">Contact</a></p>
       <p><a href="testimonials.html" target="_blank">Testimonials</a></p>
-      <hr>
     </nav>
 
     <section>
 
-      <article id="article">
+      <article class="border" id="article">
         <h2><em>About Me</em></h2>
         <a href="index.html"><img src="images/me2.jpg" alt="Portrait of Jacquetta" width="250"></a>
         <p>Cupcake ipsum dolor sit amet croissant marzipan. <strong>Chocolate</strong> bar halvah halvah. Chocolate cake cupcake gummies. Candy canes bonbon fruitcake soufflé.</p>
@@ -37,26 +68,30 @@
         <a href="index.html"><img src="images/code.jpg" alt="image of code from unsplash" width="250"></a>
         <table>
           <caption>Employment History</caption>
-          <tr>
-            <th>Years of Employment</th>
-            <th>Title</th>
-            <th>Company</th>
-          </tr>
-          <tr>
-            <td>2018 - Present</td>
-            <td>Apprentice</td>
-            <td>The Software Guild</td>
-          </tr>
-          <tr>
-            <td>2018 - Present</td>
-            <td>Chat Agent</td>
-            <td>Kelly Connect</td>
-          </tr>
-          <tr>
-            <td>2016 - 2017</td>
-            <td>Rater</td>
-            <td>LionBridge</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Years of Employment</th>
+              <th>Title</th>
+              <th>Company</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2018 - Present</td>
+              <td>Apprentice</td>
+              <td>The Software Guild</td>
+            </tr>
+            <tr>
+              <td>2018 - Present</td>
+              <td>Chat Agent</td>
+              <td>Kelly Connect</td>
+            </tr>
+            <tr>
+              <td>2016 - 2017</td>
+              <td>Rater</td>
+              <td>LionBridge</td>
+            </tr>
+          </tbody>
         </table>
       </article>
 
@@ -96,7 +131,6 @@
     </section>
 
     <footer>
-      <hr>
       <p>&copy; 2018 Jacquetta Bommuluri. All rights reserved.</p>
     </footer>
 

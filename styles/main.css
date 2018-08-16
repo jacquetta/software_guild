@@ -1,0 +1,29 @@
+  /*
+Creator: Jacquetta Bommuluri
+Date created: August 15, 2018
+Date last modified:
+*/
+
+body{
+   background-color: #F4F2F3; /* color Anti-Flash White */
+   font-family: arial, helvetica, sans-serif;
+   color: #454851; /* color Outer Space*/
+}
+
+header, footer {
+  background-color: #FF007F; /* color Rose or 81D2C7 Pearl Aqua */
+  color: #293241; /* color GunMetal */
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+nav{
+  border-top: 3px dashed #FF007F;
+  border-bottom: 3px dashed #FF007F;
+  margin-top: 4px;
+}
